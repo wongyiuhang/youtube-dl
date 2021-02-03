@@ -1785,6 +1785,13 @@ class GenericIE(InfoExtractor):
             'only_matching': True,
         },
         {
+            # Vimeo embed with vimeo-id tag (without iframe)
+            'url': 'https://laracasts.com/series/laravel-6-from-scratch/episodes/1',
+            'info_dict': {
+                'id': '358821345',
+            }
+        },
+        {
             'url': 'https://support.arkena.com/display/PLAY/Ways+to+embed+your+video',
             'md5': 'b96f2f71b359a8ecd05ce4e1daa72365',
             'info_dict': {
